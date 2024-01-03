@@ -24,7 +24,7 @@ class EthernetHandler(Module):
         self.conn = None
         self.addr = None
         self.connected = False
-        self.PORT = 12345
+        self.PORT = 12345 # set port here
 
         if not self.check_process():
             raise Exception("USB Port is in use, please close any other programs using this port and restart the program \
